@@ -1,0 +1,13 @@
+import numpy as np
+arr = np.arange(1,25,1)
+arr1 = np.reshape(arr,(4,6))
+arr2 = np.reshape(arr,(3,8))
+arr3 = np.reshape(arr,(2,3,4))
+print("Original 1D array: \n",arr)
+print("Shape: ",arr.shape,"\n")
+print("Reshaped 4x6 array: \n",arr1)
+print("Shape: ",arr1.shape,"\n")
+print("Reshaped 3x8 array: \n",arr2)
+print("Shape: ",arr2.shape,"\n")
+print("Reshaped 3D array 2x3x4: \n",arr3)
+print("Shape: ",arr3.shape,"\n")

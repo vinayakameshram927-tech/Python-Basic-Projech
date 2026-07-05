@@ -1,0 +1,11 @@
+import numpy as np
+arr = np.random.randn(6,6)
+print(arr)
+print("Shape: ",arr.shape)
+print("Size: ",arr.size)
+print("Data Type: ",arr.dtype)
+print("Index of minimum Value: ",np.argmin(arr))
+print("Index of maximum Value: ",np.argmax(arr))
+print("Top Left 3x3 submatrix: \n",arr[0:3,0:3])
+print("Replace Negative numbers with absolute values: \n",np.abs(arr))
+print("Mean: ",np.mean(arr))
